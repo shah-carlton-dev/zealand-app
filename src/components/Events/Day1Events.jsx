@@ -1,5 +1,5 @@
 import React from "react";
-import Event from "../components/Event.jsx";
+import Event from "./Event.jsx";
 
 const Day1Events = () => {
 

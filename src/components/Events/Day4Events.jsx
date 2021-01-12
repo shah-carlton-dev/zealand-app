@@ -1,9 +1,9 @@
 import React from "react";
-import Event from "../components/Event.jsx";
+import Event from "./Event.jsx";
 
-const Day5Events = () => {
+const Day4Events = () => {
     const e1 = {
-        title: "Event title day 5",
+        title: "Event title day4",
         description: "Event description blah blah blah",
         time: "Event time"
     }
@@ -15,4 +15,4 @@ const Day5Events = () => {
     )
 }
 
-export default Day5Events;
+export default Day4Events;
