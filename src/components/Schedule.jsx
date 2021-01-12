@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Container, Button, Row, Collapse, Col, Tabs, Tab } from "react-bootstrap";
 import '../styles/Schedule.css';
-import Day1Events from "./Events/Day1Events.jsx";
-import Day2Events from "./Events/Day2Events.jsx";
-import Day3Events from "./Events/Day3Events.jsx";
-import Day4Events from "./Events/Day4Events.jsx";
-import Day5Events from "./Events/Day5Events.jsx";
+import Day1Events from "./events/Day1Events.jsx";
+import Day2Events from "./events/Day2Events.jsx";
+import Day3Events from "./events/Day3Events.jsx";
+import Day4Events from "./events/Day4Events.jsx";
+import Day5Events from "./events/Day5Events.jsx";
 
 
 const Schedule = () => {

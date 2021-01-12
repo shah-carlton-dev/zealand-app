@@ -94,6 +94,10 @@
     font-size: 10px;
 }
 
+.nun {
+    font-family: 'Nunito', sans-serif;
+}
+
 @media (max-width: 900px) {
     .logo-img {
         max-width: 400px;
@@ -121,6 +125,7 @@
 .jumbotron .row .col {
     min-width: 400px;   
 }
+
 .bg {
     background-image: url("../assets/backdrop-1.gif");
     height: 100vh;
