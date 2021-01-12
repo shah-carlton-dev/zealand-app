@@ -1,0 +1,18 @@
+.eventexpandbtn {
+    color: black !important;
+}
+
+#scheduletabs-tab-day1, #scheduletabs-tab-day2, #scheduletabs-tab-day3, #scheduletabs-tab-day4, #scheduletabs-tab-day5{
+    font-size: 110%;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a {
+    color: green;
+}
+
+h5 {
+    font-weight: normal !important;
+}
