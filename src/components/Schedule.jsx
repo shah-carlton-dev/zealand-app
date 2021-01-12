@@ -5,7 +5,12 @@ const Schedule = () => {
 
     return (
         <>
-            <h2> Schedule Section </h2>
+            <Container id="schedsec">
+                <Row>
+                    <h2> Schedule Section </h2>
+                </Row>
+            </Container>
+
         </>
     )
 }

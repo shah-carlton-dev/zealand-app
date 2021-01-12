@@ -5,7 +5,11 @@ const Logistics = () => {
 
     return (
         <>
-            <h2> Logistics Section </h2>
+            <Container id="logsec">
+                <Row>
+                    <h2> Logistics Section </h2>
+                </Row>
+            </Container>
         </>
     )
 }

@@ -5,7 +5,11 @@ const Welcome = () => {
 
     return (
         <>
-            <h2> Welcome Section </h2>
+            <Container>
+                <Row>
+                    <h2> Welcome Section </h2>
+                </Row>
+            </Container>
         </>
     )
 }

@@ -12,7 +12,14 @@ const Home = () => {
 
     return (
         <>
-            <h2> Home Section </h2>
+            <Container>
+                <Row>
+                    <h2>
+                        Home Section
+                    </h2>
+                </Row>
+            </Container>
+
             <Welcome></Welcome>
             <About></About>
             <Hotel></Hotel>

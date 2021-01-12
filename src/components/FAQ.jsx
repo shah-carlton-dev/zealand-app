@@ -8,6 +8,8 @@ const FAQ = () => {
             <Container id="faqsec">
                 <Row>
                     <h2> FAQ Section </h2>
+                </Row>
+                <Row>
                     <p> Answering your questions and testing automatic deployment</p>
                 </Row>
             </Container>
