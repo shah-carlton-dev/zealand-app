@@ -16,8 +16,13 @@ code {
   width: 100%;
 }
 
-h2 {
+h2.mainsection {
   margin-top: 100px !important;
-
 }
 
+.primary-color-bg {
+  background-color: rgba(137,141,141, .4);
+}
+.secondary-color-bg {
+  background-color: rgba(137,141,141, .4);
+}

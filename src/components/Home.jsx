@@ -13,19 +13,19 @@ const Home = () => {
 
     return (
         <>
-        <div className="primary-color">
+        <div className="primary-color-bg">
             <Welcome></Welcome>
         </div>
-        <div className="secondary-color">
+        <div className="secondary-color-bg">
             <About></About>
         </div>
-        <div className="primary-color">
+        <div className="primary-color-bg">
             <Hotel></Hotel>
         </div>
-        <div className="secondary-color">
+        <div className="secondary-color-bg">
             <FAQ></FAQ>
         </div>
-        <div className="primary-color">
+        <div className="primary-color-bg">
             <Contact></Contact>
         </div>      
         </>

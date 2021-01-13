@@ -15,9 +15,9 @@ const Schedule = () => {
 
     return (
         <>
-            <Container id="schedsec">
+            <Container id="schedsec" className="mt-3">
                 <Row>
-                    <h2 className="mx-auto"> 2021 Events Schedule </h2>
+                    <h2 className="mx-auto nun"> 2021 Events Schedule </h2>
                 </Row>
                 <Tabs defaultActiveKey="day1" id="scheduletabs">
                     <Tab eventKey="day1" title="April 28" className="scheduletab"> <Day1Events/> </Tab>

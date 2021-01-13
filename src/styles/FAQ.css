@@ -1,6 +1,11 @@
 .card-header {
-    background-color: rgba(0,88,163, .40) !important;
+    background-color: rgba(137,141,141, .8) !important;
+    border: none !important;
 }
 .card-body {
-    background-color: rgba(0,88,163, .20);
+    background-color: rgba(137,141,141, .4);
+    border: none !important;
+}
+.accordion-color {
+    border: none !important;
 }

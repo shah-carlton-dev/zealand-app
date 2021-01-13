@@ -1,7 +1,7 @@
 .ccaption {
     border: 2px gray solid;
     border-radius: 10px;
-    background: rgba(100,100,100, .6);
+    background: rgba(100, 100, 100, .8);
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -9,8 +9,16 @@
 .col-md-6 {
     padding: 0 !important;
 }
+
 .align-items-center {
-    display: flex; 
-    align-items: center;  /*Aligns vertically center */
-    justify-content: center; /*Aligns horizontally center */
-  }
+    display: flex;
+    align-items: center;
+    /*Aligns vertically center */
+    justify-content: center;
+    /*Aligns horizontally center */
+    text-align: center;
+}
+
+#hoteloption {
+    display: none;
+}

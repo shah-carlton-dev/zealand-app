@@ -5,9 +5,9 @@ const Logistics = () => {
 
     return (
         <>
-            <Container id="logsec">
+            <Container id="logsec" className="mt-3">
                 <Row>
-                    <h2> Logistics Section </h2>
+                    <h2 className="mx-auto nun"> Logistics Section </h2>
                 </Row>
             </Container>
         </>

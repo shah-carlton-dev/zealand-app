@@ -6,11 +6,11 @@ const FAQ = () => {
     return (
         <>
             <Container id="faqsec">
-                <Row>
-                    <h2> Frequently Asked Questions </h2>
+                <Row className="">
+                    <h2 className="nun mx-auto mainsection"> Frequently Asked Questions </h2>
                 </Row>
                 <Row>
-                    <Accordion className="accordian-color">
+                    <Accordion className="accordion-color">
                         <Card>
                             <Card.Header>
                             <Accordion.Toggle as={Button} variant="" eventKey="0">

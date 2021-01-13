@@ -7,7 +7,7 @@ const About = () => {
         <>
             <Container id="aboutsec">
                 <Row>
-                <h2> About Section </h2>
+                <h2 className="mainsection nun mx-auto"> About Section </h2>
                 </Row>
             </Container>
         </>
