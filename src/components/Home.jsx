@@ -8,6 +8,7 @@ import FAQ from './FAQ.jsx';
 import Hotel from './Hotel.jsx';
 import Welcome from './Welcome.jsx';
 import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 
 const Home = () => {
 
@@ -28,6 +29,9 @@ const Home = () => {
         <div className="primary-color-bg">
             <Contact></Contact>
         </div>      
+        <div className="">
+            <Footer></Footer>
+        </div>    
         </>
     )
 }

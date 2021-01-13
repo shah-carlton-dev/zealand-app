@@ -11,7 +11,6 @@ const Day1Events = () => {
 
     const e2 = {
         title: "Day 1 Event 2",
-        description: "Description for second event here - Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
         time: "9:30-11pm"
     }
 

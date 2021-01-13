@@ -15,7 +15,9 @@ const Event = (props) => {
                         onClick={() => setOpen(!open)}
                         aria-expanded={open}
                     >
-                        {props.event.title}
+                        {props.event.title} &ensp;
+                        {props.event.description ? <i class="fas fa-angle-down"></i> : <></>}
+
                     </Button>
                 </Col>
                 <Col></Col>
