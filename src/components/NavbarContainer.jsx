@@ -7,9 +7,9 @@ import "../styles/NavbarContainer.css";
 import Logistics from './Logistics.jsx';
 import Schedule from './Schedule.jsx';
 import Home from './Home.jsx';
+import logo from "../assets/zp_logo.png";
 
 const NavbarContainer = () => {
-    const logo = require('../assets/zp_logo.png');
 
     return (
         <>
@@ -18,11 +18,11 @@ const NavbarContainer = () => {
                     <img
                         alt=""
                         src={logo}
-                        width="30"
-                        height="30"
+                        width="118"
+                        height="42"
                         className="d-inline-block align-top"
                     />{' '}
-                    Pinnacle 2021
+                    
                     </Navbar.Brand>
 
                 <Nav className="mx-auto">
