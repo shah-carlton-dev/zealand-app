@@ -16,8 +16,8 @@ const Welcome = () => {
                                 <h1 className='nun jumbo-title p-3 m-auto text-center'>Zealand Pinnacle 2021</h1>
                                 <h3 className='nun jumbo-title p-3 m-auto'>April 28 - May 2, 2021</h3>
                             <br/>
-                            <Button as={HLink} to="schedule" variant="dark" size="lg" className="intro-button nun">Agenda</Button>
-                            <Button href="https://www.google.com" target="_blank" variant="dark" size="lg" className="intro-button nun ">Register</Button>
+                            <Button as={HLink} to="schedule" variant="outline-light" size="lg" className="intro-button nun">Agenda</Button>
+                            <Button href="https://www.google.com" target="_blank" variant="outline-light" size="lg" className="intro-button nun ">Register</Button>
                         </div>
                          {/* mobile */}
                          <Col className='m-auto text-center intro-container d-lg-none welcomeslab-info'>
