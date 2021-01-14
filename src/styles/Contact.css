@@ -1,0 +1,4 @@
+#firsticon::after{
+    content: "\a";
+    white-space: pre;
+}

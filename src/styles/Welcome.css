@@ -91,10 +91,6 @@
     font-size: 10px;
 }
 
-.nun {
-    font-family: 'Nunito', sans-serif;
-}
-
 @media (max-width: 900px) {
     .logo-img {
         max-width: 400px;

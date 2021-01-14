@@ -1,11 +1,36 @@
 .card-header {
-    background-color: rgba(137,141,141, .8) !important;
-    border: none !important;
+    background-color: rgba(137, 141, 141, .6) !important;
+    border-left: 10px solid rgb(0, 88, 163);
 }
+
+button.btn {
+    font-size: 120% !important;
+    font-family: 'Nunito', sans-serif;
+}
+
 .card-body {
-    background-color: rgba(137,141,141, .4);
-    border: none !important;
+    background-color: rgba(137, 141, 141, .4);
+    border-left: 10px solid rgb(238, 70, 43)
 }
+
 .accordion-color {
     border: none !important;
+}
+
+#faqsec {
+    max-width: 70vw;
+}
+
+.faq-q {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(0, 88, 163);
+}
+
+.faq-a {
+    font-size: 240%;
+    font-weight: bold;
+    color: rgb(238, 70, 43);
+    font-family: 'Nunito', sans-serif;
+    padding-left: 12px;
 }
