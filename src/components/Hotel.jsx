@@ -14,7 +14,7 @@ const Hotel = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row id="hoteloption1">
+                <Row>
                     <Carousel fluid>
                         <Carousel.Item>
                             <img fluid

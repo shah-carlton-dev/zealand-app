@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px) {
+    a.nav-link {
+        text-align: right;
+        margin-right: 8vw
+    }
+}

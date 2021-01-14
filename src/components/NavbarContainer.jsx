@@ -13,7 +13,7 @@ const NavbarContainer = () => {
 
     return (
         <>
-            <Navbar sticky="top" bg="light" variant="light" className="navbar">
+            <Navbar sticky="top" bg="light" variant="light" className="navbar" expand="md">
                 <Navbar.Brand className="mr-auto logo-nav">
                     <img
                         alt=""
@@ -22,19 +22,21 @@ const NavbarContainer = () => {
                         height="42"
                         className="d-inline-block align-top"
                     />{' '}
-                    
-                    </Navbar.Brand>
 
-                <Nav className="mx-auto">
-                    <Nav.Link as={Link} to="/">Welcome</Nav.Link>
-                    <Nav.Link as={HLink} to="/#aboutsec">About</Nav.Link>
-                    <Nav.Link as={HLink} to="/#hotelsec">Hotel</Nav.Link>
-                    <Nav.Link as={HLink} to="/#faqsec">FAQ</Nav.Link>
-                    <Nav.Link as={HLink} to="/#contactsec">Contact</Nav.Link>
-                    <Nav.Link as={Link} to="/logistics">Logistics</Nav.Link>
-                    <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
-                </Nav>
-                <Button href="https://www.google.com" target="_blank" variant="dark" className="ml-auto">Register</Button>
+                </Navbar.Brand>
+                <Navbar.Toggle className="ml-auto mr-0" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mx-auto">
+                        <Nav.Link as={Link} to="/">Welcome</Nav.Link>
+                        <Nav.Link as={HLink} to="/#aboutsec">About</Nav.Link>
+                        <Nav.Link as={HLink} to="/#hotelsec">Hotel</Nav.Link>
+                        <Nav.Link as={HLink} to="/#faqsec">FAQ</Nav.Link>
+                        <Nav.Link as={HLink} to="/#contactsec">Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/logistics">Logistics</Nav.Link>
+                        <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+                <Button href="https://www.google.com" target="_blank" variant="dark" className="ml-3">Register</Button>
 
             </Navbar>
             <Switch>
