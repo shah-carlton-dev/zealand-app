@@ -29,9 +29,9 @@ const Home = () => {
         <div className="primary-color-bg">
             <Contact></Contact>
         </div>      
-        <div className="">
+        {/* <div className="">
             <Footer></Footer>
-        </div>    
+        </div>*/}
         </>
     )
 }
