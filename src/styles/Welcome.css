@@ -121,10 +121,10 @@
 
 .bg {
     background-color: black;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../assets/backdrop-1.gif");
+     background: /*linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),*/ url("../assets/backdrop-1.gif"); 
     /* background-image: url(); */
     height: 100vh;
-    opacity: .8;
+    /* opacity: .95; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
