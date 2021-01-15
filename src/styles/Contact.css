@@ -2,3 +2,13 @@
     content: "\a";
     white-space: pre;
 }
+
+.card {
+    border: none !important;
+}
+.card-header {
+    border-bottom: none !important;
+}
+.reachout {
+    text-align: center;
+}

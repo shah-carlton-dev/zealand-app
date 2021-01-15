@@ -20,3 +20,12 @@ h5 {
 .eventexpandbtn:hover{
     text-decoration: none !important;
 }
+
+@media only screen and (max-width: 768px) {
+    #scheduletabs-tab-day1, #scheduletabs-tab-day2, #scheduletabs-tab-day3, #scheduletabs-tab-day4, #scheduletabs-tab-day5{
+        font-size: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-right: 0px;
+    }
+}

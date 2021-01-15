@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Table, Row, Col } from "react-bootstrap";
+import '../styles/Contact.css'
 
 const Contact = () => {
 
@@ -7,11 +8,11 @@ const Contact = () => {
         <>
             <Container id="contactsec" className="pb-3">
                 <Row>
-                    <h2 className="mainsection mx-auto nun pb-2"> Contact </h2>
+                    <h2 className="mainsection mx-auto nun pb-2"> Get in touch </h2>
                 </Row>
                 <Row className="">
-                    <Col md={2} xs={0}></Col>
-                    <Col md={4} xs={12}>
+                    <Col md={1} xs={0}></Col>
+                    <Col md={{span: 5, order: 0}} xs={{span: 12, order: 1}}>
                         <Table borderless>
                             <tbody>
                                 <tr>
@@ -34,8 +35,7 @@ const Contact = () => {
                         </Table>
                     </Col>
                     <Col>
-                    <h5>
-                        <br></br>
+                    <h5 className="reachout">
                         Feel free to reach out with any questions or concerns!
                     </h5>
                     </Col>

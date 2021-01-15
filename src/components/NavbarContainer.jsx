@@ -13,7 +13,7 @@ const NavbarContainer = () => {
 
     return (
         <>
-            <Navbar sticky="top" bg="light" variant="light" className="navbar" expand="md">
+            <Navbar sticky="top" bg="light" variant="light" className="navbar" expand="md" collapseOnSelect={true}>
                 <Navbar.Brand className="mr-auto logo-nav">
                     <img
                         alt=""
@@ -27,13 +27,13 @@ const NavbarContainer = () => {
                 <Navbar.Toggle className="ml-auto mr-0" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link as={Link} to="/">Welcome</Nav.Link>
-                        <Nav.Link as={HLink} to="/#aboutsec">About</Nav.Link>
-                        <Nav.Link as={HLink} to="/#hotelsec">Hotel</Nav.Link>
-                        <Nav.Link as={HLink} to="/#faqsec">FAQ</Nav.Link>
-                        <Nav.Link as={HLink} to="/#contactsec">Contact</Nav.Link>
-                        <Nav.Link as={Link} to="/logistics">Logistics</Nav.Link>
-                        <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
+                        <Nav.Link eventKey={1} as={Link} to="/">Welcome</Nav.Link>
+                        <Nav.Link eventKey={2} as={HLink} to="/#aboutsec">About</Nav.Link>
+                        <Nav.Link eventKey={3} as={HLink} to="/#hotelsec">Hotel</Nav.Link>
+                        <Nav.Link eventKey={4} as={HLink} to="/#faqsec">FAQ</Nav.Link>
+                        <Nav.Link eventKey={5} as={HLink} to="/#contactsec">Contact</Nav.Link>
+                        <Nav.Link eventKey={6} as={Link} to="/logistics">Logistics</Nav.Link>
+                        <Nav.Link eventKey={7} as={Link} to="/schedule">Schedule</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Button href="https://www.google.com" target="_blank" variant="dark" className="ml-3">Register</Button>

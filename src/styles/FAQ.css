@@ -25,6 +25,7 @@ button.btn {
     font-size: 200%;
     font-weight: bold;
     color: rgb(0, 88, 163);
+    padding-right: 15px;
 }
 
 .faq-a {
@@ -33,4 +34,28 @@ button.btn {
     color: rgb(238, 70, 43);
     font-family: 'Nunito', sans-serif;
     padding-left: 12px;
+    padding-right: 12px;
+    line-height: 1 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .faq-q {
+        padding-right: 0px;
+    }
+    div.card-header > button {
+        padding: 0px;
+        text-align: left;
+    }
+    div.card-header{
+        padding: 6px 15px;
+    }
+    .faq-a {
+        padding: 0px;
+    }
+    div.card-body {
+        padding: 15px;
+    }
+    #faqsec {
+        max-width: 95vw;
+    }
 }

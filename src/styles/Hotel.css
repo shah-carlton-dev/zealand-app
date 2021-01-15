@@ -28,7 +28,13 @@
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .carousel-item > img {
-        min-height: 70vh !important;
+    .carousel-item>img {
+        min-height: 80vh !important;
+        min-width: 300vw !important;
+    }
+    .carousel.slide {
+        height: 80vh;
+        width: 100vw;
+        overflow: hidden;
     }
 }
