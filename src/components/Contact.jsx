@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <Container id="contactsec" className="pb-3">
                 <Row>
-                    <h2 className="mainsection mx-auto nun pb-2"> Get in touch </h2>
+                    <h2 className="mainsection mx-auto nun pb-2"> Get in Touch </h2>
                 </Row>
                 <Row className="">
                     <Col md={1} xs={0}></Col>
