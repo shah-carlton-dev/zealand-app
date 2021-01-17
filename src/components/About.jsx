@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={{span: 6, order: 2}} xs={{span: 12, order: 3}}className="hotel-text align-items-center px-5">
-                        <div class=" ">
+                        <div className=" ">
                             <h3 className="align-items-center nun">ABOUT POINT 2</h3>
                             <p className="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in ex libero. Quisque ornare quam non leo cursus, a molestie sem sollicitudin. Nam ullamcorper accumsan nibh non eleifend</p>
                             <div className="text-center">

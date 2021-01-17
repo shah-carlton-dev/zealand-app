@@ -17,7 +17,7 @@ const Contact = () => {
                             <tbody>
                                 <tr>
                                     <td>
-                                        <i class="fas fa-phone fa-2x"></i>
+                                        <i className="fas fa-phone fa-2x"></i>
                                     </td>
                                     <td>
                                         <h5>925.963.2774</h5>
@@ -25,7 +25,7 @@ const Contact = () => {
                                 </tr>
                                 <tr>
                                     <td>
-                                        <i class="fas fa-envelope fa-2x"></i>
+                                        <i className="fas fa-envelope fa-2x"></i>
                                     </td>
                                     <td>
                                         <h5>lburnett@options-cm.com</h5>
@@ -42,7 +42,7 @@ const Contact = () => {
 
                     {/* <Col md={2} xs={0}></Col>
                     <Col md={2} xs={4} className="align-items-center">
-                        <i class="fas fa-phone fa-2x"></i>
+                        <i className="fas fa-phone fa-2x"></i>
                     </Col>
                     <Col md={2} xs={8}> 
                         <h5>925.963.2774</h5>

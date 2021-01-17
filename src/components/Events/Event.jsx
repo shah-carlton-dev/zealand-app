@@ -16,7 +16,7 @@ const Event = (props) => {
                         aria-expanded={open}
                     >
                         {props.event.title} &ensp;
-                        {props.event.description ? <i class="fas fa-angle-down"></i> : <></>}
+                        {props.event.description ? <i className="fas fa-angle-down"></i> : <></>}
 
                     </Button>
                 </Col>

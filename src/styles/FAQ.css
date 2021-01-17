@@ -1,5 +1,5 @@
 .card-header {
-    background-color: rgba(137, 141, 141, .6) !important;
+    background-color: rgba(137, 141, 141, .2) !important;
     border-left: 10px solid rgb(0, 88, 163);
 }
 
@@ -9,7 +9,7 @@ button.btn {
 }
 
 .card-body {
-    background-color: rgba(137, 141, 141, .4);
+    background-color: rgb(242, 243, 246);
     border-left: 10px solid rgb(238, 70, 43)
 }
 

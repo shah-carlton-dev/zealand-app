@@ -25,7 +25,7 @@ const NavbarContainer = () => {
 
                 </Navbar.Brand>
                 <Navbar.Toggle className="ml-auto mr-0" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" onClick={e => console.log("collapsed")}>
                     <Nav className="mx-auto">
                         <Nav.Link eventKey={1} as={Link} to="/">Welcome</Nav.Link>
                         <Nav.Link eventKey={2} as={HLink} to="/#aboutsec">About</Nav.Link>
