@@ -3,6 +3,7 @@
     border-left: 10px solid rgb(0, 88, 163);
 }
 
+
 button.btn {
     font-size: 120% !important;
     font-family: 'Nunito', sans-serif;
@@ -24,29 +25,33 @@ button.btn {
 .faq-q {
     font-size: 200%;
     font-weight: bold;
-    color: rgb(0, 88, 163);
+    color: rgba(0, 88, 163, .8);
     padding-right: 15px;
 }
 
 .faq-a {
     font-size: 240%;
     font-weight: bold;
-    color: rgb(238, 70, 43);
+    color: rgba(238, 70, 43, .8);
     font-family: 'Nunito', sans-serif;
     padding-left: 12px;
     padding-right: 12px;
     line-height: 1 !important;
 }
 
+#faqsec>* p:not(.faq-a), #faqsec>* h5:not(.faq-q) {
+    color: rgba(44, 41, 42, .8);
+}
+
 @media only screen and (max-width: 768px) {
     .faq-q {
         padding-right: 0px;
     }
-    div.card-header > button {
+    div.card-header>button {
         padding: 0px;
         text-align: left;
     }
-    div.card-header{
+    div.card-header {
         padding: 6px 15px;
     }
     .faq-a {
