@@ -18,7 +18,7 @@ const About = () => {
                             <h3 className="align-items-center nun">ROSEWOOD LITTLE DIX BAY </h3>
                             <p className="text-center"> Long regarded as one of the world’s greatest getaways, Rosewood Little Dix Bay offers a level of refinement, seclusion, and untamed beauty unrivaled in the Caribbean.</p>
                             <div className="text-center">
-                                <Button variant="secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda" target="_blank">View More</Button>{' '}
+                                <Button variant="outline-secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda" target="_blank">View More</Button>{' '}
                             </div>
                         </div>
                     </Col>
@@ -27,7 +27,7 @@ const About = () => {
                             <h3 className="align-items-center nun">ABOUT POINT 2</h3>
                             <p className="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in ex libero. Quisque ornare quam non leo cursus, a molestie sem sollicitudin. Nam ullamcorper accumsan nibh non eleifend</p>
                             <div className="text-center">
-                                <Button variant="secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/gallery" target="_blank">View More</Button>{' '}
+                                <Button variant="outline-secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/gallery" target="_blank">View More</Button>{' '}
                             </div>
                         </div>
                     </Col>
@@ -42,7 +42,7 @@ const About = () => {
                             <h3 className="align-items-center nun">ABOUT POINT 3 </h3>
                             <p className="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in ex libero. Quisque ornare quam non leo cursus, a molestie sem sollicitudin. Nam ullamcorper accumsan nibh non eleifend </p>
                             <div className="text-center">
-                                <Button variant="secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/dining" target="_blank">View More</Button>{' '}
+                                <Button variant="outline-secondary" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/dining" target="_blank">View More</Button>{' '}
                             </div>
                         </div>
                     </Col>
