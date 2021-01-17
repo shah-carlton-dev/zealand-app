@@ -26,12 +26,10 @@ const Home = () => {
         <div className="secondary-color-bg">
             <FAQ></FAQ>
         </div>
-        <div className="primary-color-bg">
+        {/* <div className="primary-color-bg">
             <Contact></Contact>
-        </div>      
-        {/* <div className="">
-            <Footer></Footer>
-        </div>*/}
+        </div>       */}
+        <Footer></Footer>
         </>
     )
 }

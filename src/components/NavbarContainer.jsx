@@ -9,7 +9,7 @@ import Schedule from './Schedule.jsx';
 import Home from './Home.jsx';
 import logo from "../assets/zp_logo.png";
 import * as $ from 'jquery';
-
+import Footer from "./Footer.jsx";
 const NavbarContainer = () => {
     const [toggled, setToggled] = useState(false);
 
@@ -51,6 +51,7 @@ const NavbarContainer = () => {
                 <Route exact path="/logistics" component={Logistics} />
                 <Route exact path="/schedule" component={Schedule} />
             </Switch>
+            
         </>
     )
 };
