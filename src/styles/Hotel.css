@@ -1,13 +1,25 @@
-.ccaption {
+/* .ccaption {
     border: 2px gray solid;
     border-radius: 10px;
     background: rgba(100, 100, 100, .8);
     padding-left: 10px;
     padding-right: 10px;
+} */
+
+.carousel-subcap {
+    font-weight: 600;
 }
 
 .col-md-6 {
     padding: 0 !important;
+}
+
+#aboutsec >* h3, #aboutsec >* p {
+    color: rgba(44, 41, 42, .8);
+}
+
+h3 {
+    font-size: 120% !important;
 }
 
 .align-items-center {

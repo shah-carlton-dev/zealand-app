@@ -38,7 +38,6 @@ const NavbarContainer = () => {
                         <Nav.Link eventKey={2} as={HLink} to="/#aboutsec">About</Nav.Link>
                         <Nav.Link eventKey={3} as={HLink} to="/#hotelsec">Hotel</Nav.Link>
                         <Nav.Link eventKey={4} as={HLink} to="/#faqsec">FAQ</Nav.Link>
-                        <Nav.Link eventKey={5} as={HLink} to="/#contactsec">Contact</Nav.Link>
                         <Nav.Link eventKey={6} as={Link} to="/logistics">Logistics</Nav.Link>
                         <Nav.Link eventKey={7} as={Link} to="/schedule">Schedule</Nav.Link>
                     </Nav>

@@ -24,7 +24,7 @@ const Hotel = () => {
                             />
                             <Carousel.Caption className="ccaption">
                                 <h3 className="nun">ROSEWOOD LITTLE DIX BAY </h3>
-                                <p>Long regarded as one of the world’s greatest getaways, Rosewood Little Dix Bay offers a level of refinement, seclusion, and untamed beauty unrivaled in the Caribbean.</p>
+                                <p className="carousel-subcap">Long regarded as one of the world’s greatest getaways, Rosewood Little Dix Bay offers a level of refinement, seclusion, and untamed beauty unrivaled in the Caribbean.</p>
                                 <Button variant="outline-light" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda" target="_blank">Visit the hotel site</Button>{' '}
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -36,7 +36,7 @@ const Hotel = () => {
                             />
                             <Carousel.Caption className="ccaption">
                                 <h3 className="nun">ROSEWOOD LITTLE DIX BAY GALLERY </h3>
-                                <p>Browse stunning aerial shots of the resort along with guestrooms, dining areas, and other venues.</p>
+                                <p className="carousel-subcap">Browse stunning aerial shots of the resort along with guestrooms, dining areas, and other venues.</p>
                                 <Button variant="outline-light" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/gallery" target="_blank">Visit the hotel gallery</Button>{' '}
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -48,7 +48,7 @@ const Hotel = () => {
                             />
                             <Carousel.Caption className="ccaption">
                                 <h3 className="nun">DINING AT ROSEWOOD LITTLE DIX BAY </h3>
-                                <p>From Caribbean fine dining to beachside farm-to-table cuisine, Rosewood Little Dix Bay is home to an eclectic and inspired mix of Virgin Gorda restaurants.</p>
+                                <p className="carousel-subcap">From Caribbean fine dining to beachside farm-to-table cuisine, Rosewood Little Dix Bay is home to an eclectic and inspired mix of Virgin Gorda restaurants.</p>
                                 <Button variant="outline-light" href="https://www.rosewoodhotels.com/en/little-dix-bay-virgin-gorda/dining" target="_blank">Browse dining options</Button>{' '}
                             </Carousel.Caption>
                         </Carousel.Item>
